@@ -1,0 +1,28 @@
+Innitial input:
+    score = 59;
+ER:
+    F
+AR:
+    F
+
+Input:
+    score = 61;
+ER:
+    D
+AR:
+    D
+
+Input: 
+    score = 89;
+ER:
+    B
+AR:
+    D
+
+Hypothesis:
+    Since the code is asking if (score >= 60) return "D" the since 89
+    is greater than 89 it is cutting it short before it can continue up the
+    else if ladder to reach the B score it deserves
+
+Fix:
+    Switch the code around to go in descending order
